@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(lato.tff) format('truetype');
+}
+
+*
+{
+	color: #FFFFFF;
+	font-family: 'Lato', sans-serif;
+}
+
+body
+{
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+
+.frame_box
+{
+	position: absolute;
+	top: 0px; 
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: rgba(255, 255, 255, 0.0);
+}
